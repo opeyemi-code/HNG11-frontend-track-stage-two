@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Markazi+Text:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  color: #3a3a3a;
+}
+
+.home-nav {
+  color: #3cb79e;
+  font-family: "Markazi Text";
+  font-weight: 400;
+  /* font-size: 4rem; */
+}
+
+.big-x {
+  color: #4dbda7;
+  font-weight: 700;
+}
+
+nav li,
+.products-link {
+  font-family: "Lato", sans-serif;
+  color: #00a181;
+  font-size: 24px;
+}
+
+.hero-img {
+  width: 408px;
+  height: auto;
+}
+
+.hero-section {
+  background-color: #dff4f0;
+}
+
+.hero-heading {
+  font-family: "EB Garamond", serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 108px;
+}
+
+.hero-description {
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  line-height: 42px;
+  width: 770px;
+}
+
+.products-heading {
+  color: #3cb79e;
+  font-family: "EB Garamond", serif;
+  font-size: 48px;
+}
+
+.products-search-btn,
+.products-filter-btn {
+  border: none;
+  font-size: 2rem;
+  background-color: transparent;
+}
+
+.arrow-down-icon,
+.filter-edit-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.card {
+  width: 322px;
+}
+.product-img {
+  width: 322px;
+  height: 384px;
+}
+
+.product-name {
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.star-icon {
+  width: 24.17px;
+  height: 24.17px;
+}
+
+.product-price {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.add-to-cart-btn,
+.like-btn {
+  border: 1px solid #3a3a3a;
+  background-color: transparent;
+}
+
+.add-to-cart-btn {
+  font-size: 24px;
+  line-height: 38.4px;
+}
+
+.heart-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.page-btn {
+  border: 1px solid #3a3a3a;
+  font-size: 24px;
+  line-height: 38.4px;
+}
+
+.page-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.active-page {
+  color: #00a181;
+}
+
+@media (max-width: 576px) {
+  .hero-heading {
+    font-size: 2rem;
+    line-height: 48px;
+  }
+
+  .hero-description {
+    font-size: 1.125rem;
+    line-height: 28.8px;
+    width: 311px;
+  }
+
+  .hero-img {
+    width: 278px;
+    height: auto;
+  }
+
+  .products-heading {
+    font-size: 32px;
+  }
+
+  .products-search-btn,
+  .products-filter-btn {
+    font-size: 14px;
+  }
+
+  .arrow-down-icon,
+  .filter-edit-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .product-img {
+    width: 150px;
+    height: 180px;
+  }
+
+  .product-name {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .star-icon {
+    width: 16.14px;
+    height: 16.14px;
+  }
+
+  .product-price {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .add-to-cart-btn {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .heart-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .page-btn {
+    font-size: 18px;
+    line-height: 28.8px;
+  }
+
+  .page-btn img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+  .hero-heading {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+
+  .hero-description {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .hero-img {
+    width: 330px;
+    height: auto;
+  }
+
+  .products-heading {
+    font-size: 32px;
+  }
+
+  .products-search-btn,
+  .products-filter-btn {
+    font-size: 20px;
+  }
+
+  .product-img {
+    width: 200px;
+    height: 200.29px;
+  }
+
+  .product-name {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .product-price {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+
+  .add-to-cart-btn {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+
+  .heart-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .page-btn {
+    font-size: 18px;
+    line-height: 28.8px;
+  }
+
+  .page-btn img {
+    width: 18px;
+    height: 18px;
+  }
+}

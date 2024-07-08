@@ -1,0 +1,109 @@
+.shipping-address-heading {
+  color: #00a181;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.add-new-address-btn {
+  font-size: 24px;
+  line-height: 38.4px;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+
+/* Move to index stylelater */
+.address-label {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: block;
+  /* position: relative; */
+}
+
+.default-btn {
+  background-color: #e6ffeb;
+  color: #000;
+  border: none;
+  font-size: 20px;
+}
+
+.customer-name,
+.contact-address,
+.contact-number {
+  font-size: 28px;
+  line-height: 42px;
+  /* margin-top: 60px; */
+}
+
+.contact-address {
+  margin-bottom: 5px;
+}
+
+.contact-number {
+  color: #000;
+  text-decoration: none;
+}
+
+.edit-btn,
+.delete-btn {
+  cursor: pointer;
+  color: #3a3a3a;
+  font-size: 24px;
+}
+
+.edit-btn svg,
+.delete-btn svg {
+  margin-right: 5px;
+}
+
+.choose-btn {
+  background-color: #fff;
+  border: 1px solid #3a3a3a;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+@media (max-width: 576px) {
+  .shipping-address-heading {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .add-new-address-btn {
+    font-size: 14px;
+    line-height: 22.4px;
+    border: 1px solid #000;
+    background-color: transparent;
+  }
+
+  .default-btn {
+    font-size: 12.08px;
+  }
+
+  .customer-name,
+  .contact-address,
+  .contact-number {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+
+  .contact-address {
+    margin-bottom: 5px;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    font-size: 16px;
+  }
+
+  .edit-btn svg,
+  .delete-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .choose-btn {
+    font-size: 14px;
+  }
+}

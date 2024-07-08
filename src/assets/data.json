@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Summer Retro Glasses",
+    "ratings": 4,
+    "price": "10,000",
+    "image": "/images/summer-retro-glasses (2).png"
+  },
+  {
+    "id": 2,
+    "name": "Pink Circle Glasses",
+    "ratings": 4,
+    "price": "15,000",
+    "image": "./images/pink-circl-glasses.png"
+  },
+  {
+    "id": 3,
+    "name": "Summer Stylish Glasses",
+    "ratings": 4,
+    "price": "15,000",
+    "image": "/images/summer-stylish-glasses.png"
+  },
+  {
+    "id": 4,
+    "name": "Classy Stylish Glasses",
+    "ratings": 4,
+    "price": "10,000",
+    "image": "/images/classy-stylish-glasses.png"
+  },
+  {
+    "id": 5,
+    "name": "Retro Pink Glasses",
+    "ratings": 4,
+    "price": "10,000",
+    "image": "/images/retro-pink-glasses.png"
+  },
+  {
+    "id": 6,
+    "name": "Cat Eyes Glasses",
+    "ratings": 4,
+    "price": "15,000",
+    "image": "/images/car-eyes-glasses.png"
+  },
+  {
+    "id": 7,
+    "name": "Summer Heart Glasses",
+    "ratings": 4,
+    "price": "15,000",
+    "image": "/images/summer-heart-glasses.png"
+  },
+  {
+    "id": 8,
+    "name": "Summer Star Glasses",
+    "ratings": 4,
+    "price": "10,000",
+    "image": "/images/summer-star-glasses.png"
+  },
+  {
+    "id": 9,
+    "name": "Summer Retro Glasses",
+    "ratings": 4,
+    "price": "10,000",
+    "image": "/images/summer-retro-glasses.png"
+  },
+  {
+    "id": 10,
+    "name": "Gold Circle Glasses",
+    "ratings": 4,
+    "price": "15,000",
+    "image": "/images/gold-circle-glasses.png"
+  },
+  {
+    "id": 11,
+    "name": "Wooden Stylish Glasses",
+    "ratings": 4,
+    "price": "15,000",
+    "image": "/images/wooden-stylish-glasses.png"
+  },
+  {
+    "id": 12,
+    "name": "Fashion Stylish Glasses",
+    "ratings": 4,
+    "price": "15,000",
+    "image": "/images/fashion-stylish-glasses.png"
+  }
+]
