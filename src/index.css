@@ -11,7 +11,7 @@
   color: #3cb79e;
   font-family: "Markazi Text";
   font-weight: 400;
-  /* font-size: 4rem; */
+  font-size: 64px;
 }
 
 .big-x {
@@ -19,16 +19,11 @@
   font-weight: 700;
 }
 
-nav li,
+nav li a,
 .products-link {
   font-family: "Lato", sans-serif;
   color: #00a181;
-  font-size: 24px;
-}
-
-.hero-img {
-  width: 408px;
-  height: auto;
+  font-size: 64px;
 }
 
 .hero-section {
@@ -47,6 +42,18 @@ nav li,
   font-size: 28px;
   line-height: 42px;
   width: 770px;
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.hero-img {
+  width: 408px;
+  height: auto;
 }
 
 .products-heading {
@@ -71,6 +78,7 @@ nav li,
 .card {
   width: 322px;
 }
+
 .product-img {
   width: 322px;
   height: 384px;
@@ -123,7 +131,15 @@ nav li,
   color: #00a181;
 }
 
+.section-rounded {
+  border-radius: 30px;
+}
+
 @media (max-width: 576px) {
+  .home-nav {
+    font-size: 48px;
+  }
+
   .hero-heading {
     font-size: 2rem;
     line-height: 48px;
@@ -155,13 +171,18 @@ nav li,
     height: 14px;
   }
 
+  .card {
+    width: 144px;
+    height: 171px;
+  }
+
   .product-img {
-    width: 150px;
-    height: 180px;
+    width: 144px;
+    height: 171px;
   }
 
   .product-name {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
   }
 
@@ -195,22 +216,33 @@ nav li,
     width: 18px;
     height: 18px;
   }
+
+  .section-rounded {
+    border-radius: 0;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 1200px) {
+  .hero-content {
+    width: 503px;
+  }
+
   .hero-heading {
-    font-size: 2.5rem;
+    font-size: 48px;
     line-height: 60px;
+    width: 500px;
   }
 
   .hero-description {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 38.4px;
+    width: 500px;
+    /* max-width: 650px; */
   }
 
   .hero-img {
-    width: 330px;
-    height: auto;
+    width: 284.98px;
+    height: 357.75px;
   }
 
   .products-heading {
@@ -256,5 +288,9 @@ nav li,
   .page-btn img {
     width: 18px;
     height: 18px;
+  }
+
+  section-rounded {
+    border-radius: 15.93px;
   }
 }

@@ -34,8 +34,8 @@ function ShoppingCartForBigScreen() {
             <div>
               <h3 className="item-name">Pinky Circle Glasses</h3>
               <h5 className="item-description">
-                <span className="fw-bold">color: </span>
-                Pink // Material: Metal
+                <span className="fw-bold">Color: </span>
+                Pink // <span className="fw-bold">Material:</span> Metal
               </h5>
             </div>
           </td>
@@ -69,8 +69,8 @@ function ShoppingCartForBigScreen() {
             <div>
               <h3 className="item-name">Summer Stylish Glasses</h3>
               <h5 className="item-description">
-                <span className="fw-bold">color: </span>
-                Orange // Material: Plastic
+                <span className="fw-bold">Color: </span>
+                Orange // <span className="fw-bold">Material:</span> Plastic
               </h5>
             </div>
           </td>
@@ -113,7 +113,7 @@ function ShoppingCartForMObile() {
         <div>
           <h3 className="item-name">Pinky Circle Glasses</h3>
           <h5 className="item-description">
-            <span className="fw-bold">color: </span>
+            <span className="fw-bold">Color: </span>
             Pink // Material: Metal
           </h5>
           <h4 className="item-price">
@@ -148,7 +148,7 @@ function ShoppingCartForMObile() {
         <div>
           <h3 className="item-name">Summer Stylish Glasses</h3>
           <h5 className="item-description">
-            <span className="fw-bold">color: </span>
+            <span className="fw-bold">Color: </span>
             Orange // Material: Plastic
           </h5>
           <h4 className="item-price">

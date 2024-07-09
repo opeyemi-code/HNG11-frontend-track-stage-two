@@ -3,16 +3,27 @@ import "../styles/shippingAddress.css";
 import { BrandLogo } from "./sub-component/Header";
 import { PrimaryNav } from "./sub-component/Header";
 import { PlusLg } from "react-bootstrap-icons";
+// import
+import StepIndicator from "./sub-component/StepIndicator";
 
-export default function ShippingAddress() {
+export function CheckoutHeader() {
   return (
-    <>
-      <header className="py-3 px-4 px-sm-5 border border-bottom">
-        <div className="d-flex justify-content-between align-items-center">
-          <BrandLogo />
+    <header className="py-3 px-4 px-sm-5 border border-bottom d-sm-flex justify-content-between">
+      <div className="d-flex justify-content-between align-items-center">
+        <BrandLogo />
+        <div className="d-sm-none">
           <PrimaryNav />
         </div>
-      </header>
+      </div>
+      <StepIndicator currentStep={1} />
+    </header>
+  );
+}
+
+export default function ChangeShippingAddress() {
+  return (
+    <>
+      <CheckoutHeader />
       <main id="shipping-address" className="pb-5">
         <div className="d-sm-flex justify-content-between pt-3 py-3 px-4">
           <h2 className="shipping-address-heading fw-bolder">

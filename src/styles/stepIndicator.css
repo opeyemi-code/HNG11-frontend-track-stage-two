@@ -1,0 +1,106 @@
+/* General Styles for Step Indicator */
+.step-indicator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 581px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.step {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  flex: 1;
+}
+
+.step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 24px); /* Adjusting width based on icon size */
+  height: 2px;
+  background: lightgray;
+  top: 11px;
+  left: calc(50% + 12px); /* Aligning to center of the step */
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.checked-step::after {
+  top: 10px;
+}
+
+.step-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: lightgray;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+  /* margin-bottom: 5px; */
+  position: relative;
+  z-index: 1;
+}
+
+.step.completed .step-icon {
+  background: #00a181;
+}
+
+.step-label {
+  display: block;
+  font-size: 14px;
+}
+
+/* Mobile Styles */
+@media (max-width: 576px) {
+  .step-indicator {
+    width: 309px;
+  }
+
+  .step {
+    flex: 1;
+  }
+
+  .step:not(:last-child)::after {
+    width: calc(100% - 12.91px); /* Adjusting width based on icon size */
+    top: 9px;
+    left: calc(50% + 6.45px); /* Aligning to center of the step */
+    /* transform: translateY(-50%); */
+  }
+
+  .checked-step::after {
+    top: 10px;
+  }
+
+  .step-icon {
+    line-height: 18px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .step-label {
+    font-size: 14px;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 576px) and (max-width: 1400px) {
+  .step-indicator {
+    width: 452.96px;
+  }
+
+  .step:not(:last-child)::after {
+    width: calc(100% - 16.91px); /* Adjusting width based on icon size */
+    left: calc(50% + 8.45px); /* Aligning to center of the step */
+    transform: translateY(-50%);
+  }
+
+  .step-icon {
+    width: 18.91px;
+    height: 18.91px;
+    line-height: 18.91px;
+  }
+}

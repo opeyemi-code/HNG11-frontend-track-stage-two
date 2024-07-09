@@ -1,9 +1,9 @@
 import arrowRight from "../../assets/icon/arrow-right.png";
 import { Link } from "react-router-dom";
 
-export default function CheckOutSection() {
+export default function CheckOutSection(props) {
   return (
-    <section className="d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-between checkout-section my-5 py-4 px-5 ">
+    <section className="d-flex flex-column section-rounded flex-sm-row justify-content-sm-between checkout-section my-5 py-4 px-5 ">
       <div className="mb-3 mb-sm-0">
         <h3 className="checkout-heading">Choose Shipping Mode</h3>
         <div>
@@ -37,7 +37,7 @@ export default function CheckOutSection() {
         </div>
         <div className="d-flex justify-content-between">
           <h4>Shipping</h4>
-          <h4>-</h4>
+          <h4>{props.shippingFee}</h4>
         </div>
         <div className="d-flex justify-content-between">
           <h4>Total</h4>
@@ -47,10 +47,7 @@ export default function CheckOutSection() {
           </h4>
         </div>
         <button type="button" className="w-75 mx-auto checkout-btn mt-4">
-          <Link
-            className="text-decoration-none checkout-link"
-            to="/ShippingAddress"
-          >
+          <Link className="text-decoration-none checkout-link" to={props.link}>
             Checkout
             <span>
               <img className="arrow-right-icon" src={arrowRight} alt="" />

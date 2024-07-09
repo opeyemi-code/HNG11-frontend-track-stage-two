@@ -31,7 +31,7 @@ export default function Cart() {
           </button>
         </div>
         <ShoppingCart />
-        <CheckOutSection />
+        <CheckOutSection shippingFee="-" link="/PreviewOrder" />
       </main>
     </>
   );

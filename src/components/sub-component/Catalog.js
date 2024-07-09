@@ -38,7 +38,7 @@ export default function Catalog() {
                 <div className="d-flex justify-content-between">
                   <button
                     type="button"
-                    className="add-to-cart-btn py-3 px-2 text-center"
+                    className="add-to-cart-btn px-1 px-sm-2 py-1 text-center"
                   >
                     Add to Cart
                   </button>

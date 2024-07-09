@@ -1,0 +1,170 @@
+.preview-order-heading {
+  color: #00a181;
+  font-size: 64px;
+  line-height: 96px;
+}
+
+.back-to-cart-btn {
+  border: none;
+  font-size: 24px;
+  line-height: 38.4px;
+  background-color: transparent;
+}
+
+.back-to-cart-link {
+  color: #3a3a3a;
+}
+
+.shipping-address-section,
+.payment-method-section {
+  background-color: #eefffc;
+}
+
+.shipping-address-section h3 {
+  font-family: "EB Garamond", serif;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.contact-number {
+  color: #3a3a3a;
+}
+
+.shipping-address-btn {
+  border: 1.5px solid #3a3a3a;
+  background-color: transparent;
+}
+
+.shipping-address-btn a {
+  color: #000;
+  font-size: 24px;
+  line-height: 38.4px;
+}
+
+.payment-method-heading {
+  font-size: 32px;
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+}
+
+.card-type,
+.customer-card {
+  font-size: 28px;
+}
+
+.payment-method-btn {
+  font-size: 24px;
+  border: #000 1.5px solid;
+  background-color: transparent;
+}
+
+.payment-method-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 576px) {
+  .preview-order-heading {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .back-to-cart-btn {
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+
+  .shipping-address-btn h3 {
+    font-size: 24px;
+  }
+
+  .back-to-cart-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .shipping-address-btn {
+    width: 100%;
+    display: inline;
+  }
+
+  .shipping-address-btn a {
+    font-size: 14px;
+  }
+
+  .shipping-address-btn svg {
+    height: 14px;
+    width: 14px;
+  }
+
+  .payment-method-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .card-type,
+  .customer-card {
+    font-size: 28px;
+  }
+
+  .payment-method-btn {
+    font-size: 14px;
+  }
+
+  .payment-method-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1400px) {
+  .preview-order-heading {
+    font-size: 49px;
+    line-height: 60px;
+  }
+
+  .back-to-cart-btn {
+    font-size: 18px;
+    line-height: 28.8px;
+  }
+
+  .back-to-cart-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1400px) {
+  .shipping-address-section h3 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .shipping-address-btn a {
+    font-size: 18px;
+  }
+
+  .shipping-address-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .payment-method-heading {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .card-type,
+  .customer-card {
+    font-size: 20px;
+  }
+
+  .payment-method-btn {
+    font-size: 18px;
+  }
+
+  .payment-method-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+}

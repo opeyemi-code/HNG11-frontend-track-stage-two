@@ -177,7 +177,7 @@ label {
     line-height: 32px;
   }
 
-  .checkout-btn {
+  .checkout-btn a {
     font-size: 14px;
     line-height: 22.2px;
   }
@@ -195,8 +195,8 @@ label {
 
 @media (min-width: 576px) and (max-width: 1200px) {
   .cart-heading {
-    font-size: 48px;
-    line-height: 72px;
+    font-size: 40px;
+    line-height: 60px;
   }
 
   .continue-shopping-link {
@@ -209,34 +209,39 @@ label {
     height: 18px;
   }
 
+  .table-heading {
+    font-size: 20px;
+    left: 32px;
+  }
+
   .item-img {
-    width: 145px;
-    height: 174.41px;
+    width: 103px;
+    height: 123.89px;
   }
 
   .item-name {
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 36px;
   }
 
   .item-description {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 25.6px;
   }
 
   .item-price {
-    font-size: 24px;
-    line-height: 38.4px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .item-qty {
-    font-size: 18px;
-    line-height: 28.8px;
+    font-size: 12px;
+    line-height: 19.39px;
   }
 
   .total {
-    font-size: 24px;
-    line-height: 38.4px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .checkout-heading {
@@ -247,6 +252,10 @@ label {
   label {
     font-size: 20px;
     line-height: 32px;
+  }
+
+  .shipping-cost-section {
+    width: 50%;
   }
 
   .shipping-cost-section h4 {

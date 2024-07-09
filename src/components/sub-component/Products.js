@@ -56,21 +56,6 @@ export default function Products() {
                 2
               </button>
             </li>
-            <li class="page-item me-3">
-              <button class="page-link page-btn" type="button">
-                3
-              </button>
-            </li>
-            <li class="page-item me-3 ">
-              <button class="page-link page-btn" type="button">
-                ...
-              </button>
-            </li>
-            <li class="page-item me-3">
-              <button class="page-link page-btn" type="button">
-                10
-              </button>
-            </li>
             <li class="page-item">
               <button class="page-link page-btn" type="button">
                 <span aria-hidden="true">

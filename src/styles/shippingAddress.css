@@ -42,7 +42,6 @@
 
 .contact-number {
   color: #000;
-  text-decoration: none;
 }
 
 .edit-btn,
@@ -84,7 +83,7 @@
   .customer-name,
   .contact-address,
   .contact-number {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 25.6px;
   }
 
@@ -105,5 +104,45 @@
 
   .choose-btn {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1400px) {
+  .shipping-address-heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .add-new-address-btn {
+    font-size: 18px;
+    line-height: 28.8px;
+    border: 1px solid #000;
+    background-color: transparent;
+  }
+
+  .default-btn {
+    font-size: 20px;
+  }
+
+  .customer-name,
+  .contact-address,
+  .contact-number {
+    font-size: 24px;
+    line-height: 38.4px;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    font-size: 20px;
+  }
+
+  .edit-btn svg,
+  .delete-btn svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .choose-btn {
+    font-size: 18px;
   }
 }
